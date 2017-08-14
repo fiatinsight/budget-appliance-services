@@ -1,0 +1,30 @@
+@import 'variables';
+
+.jumbotron-home {
+  background: url('/budgetAppliance/assets/images/home-hero.jpg');
+  background-position: center;
+  height: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  h1 {
+    color: $color-blue;
+  }
+
+  p {
+    color: $color-white;
+  }
+}
+
+.main-content h2 {
+  color: $color-blue;
+}
+
+.home-cards {
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+  .card {
+    min-height: 435px;
+  }
+}

@@ -1,0 +1,11 @@
+---
+# Front matter comment to ensure Jekyll properly compiles the Sass
+---
+
+// Imports
+@import 'variables';
+@import 'navigation';
+@import 'home';
+
+// General and Custom Code is found in the 'custom.scss' file in the _sass directory
+@import 'custom';

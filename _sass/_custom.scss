@@ -1,0 +1,51 @@
+@import 'variables';
+
+.jumbotron-sub {
+  background: url('/budgetAppliance/assets/images/repair-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 400px;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  text-align: center;
+  display: inline-block;
+  background-color: #0275d8;
+  color: #f7f7f7;
+  padding: 25px;
+  margin-top: -66px;
+}
+
+.center-display {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.col-md-4.sidebar {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+footer {
+  color: #333;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  p {
+    font-size: .8rem;
+  }
+}
